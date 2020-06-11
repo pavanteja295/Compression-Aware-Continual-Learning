@@ -15,9 +15,6 @@ All datasets except notMNIST and miniImageNet are downloaded from the torchvisio
 1. notMNIST is by default downloaded from [Adversarial Continual Learning](https://github.com/facebookresearch/Adversarial-Continual-Learning/tree/master/data)
 2. Please download miniImageNet from https://www.dropbox.com/s/zuyqhk290gpf1hm/miniimagenet.zip?dl=0 and unzip the train.pkl and test.pkl into to a new folder data/mini-imagenet
 
-We provide pretrained models for CIFAR-100, miniImageNet, 5-sequence dataset. To evaluate trained model use:
-
-
 
 ## Pretrained Models
 
@@ -43,6 +40,9 @@ We provide pretrained models for CIFAR-100, miniImageNet, 5-sequence dataset. To
 ```
 ./5sequencedataset_eval.sh
 ```
+| Model name         | Accuracy  | Model Size(MB) |
+| ------------------ |---------------- | -------------- |
+| CACL_Final   |     91.56%         |     1.48      |
 ## Training
 
 To train the model(s) from scratch, run the following scripts. The scripts contain hyper-parameter details used to obtain the results in this paper:
