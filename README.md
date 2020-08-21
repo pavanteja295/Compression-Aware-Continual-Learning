@@ -65,3 +65,6 @@ To train the model(s) from scratch, run the following scripts. The scripts conta
 python iBatchLearn.py  -e <pruning_intensity> --model_name <Net_SVD/vgg16_bn_cifar100_SVD> --model_type <customnet_SVD/vgg_16_bn> --exp_name <exp_name> --first_split_size <classes per task> --other_split_size <classes per task>  --train_aug  --schedule <lrdropepochs> --batch_size <64/128> --dataset <CIFAR100/miniImageNet/multidataset> --force_out_dim 0  --sparse_wt <sparsity weight>  --benchmark <fixatesrandomseed> --rand_split_order --repeat 3
 
 ```
+This repository is built on top of [GT-RIPL
+/
+Continual-Learning-Benchmark](https://github.com/GT-RIPL/Continual-Learning-Benchmark) which includes baseline results for the recent continual learning algorithms.
