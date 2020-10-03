@@ -1,5 +1,8 @@
 # Compression-aware Continual Learning using SVD
 This repository is the official implementation of Compression-aware Continual Learning using SVD.
+
+Checkout our arxiv version of the paper  : https://arxiv.org/abs/2009.01956
+
 ![Pipeline of our approach](/images/neurips22.png)
 ## Requirements
 
